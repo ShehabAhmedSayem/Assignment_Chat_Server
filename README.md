@@ -13,10 +13,6 @@ And to start a single chat server run the following command
 ```
 docker run --name client_1 --network assignment_message_server_message-service chat_server
 ```
-Or with port number
-```
-docker run --name client_1 --network assignment_message_server_message-service chat_server 8001
-```
 
 Here the network is mandatory as this was created during the message server building and named as assignment_message_server_message-service.
 
